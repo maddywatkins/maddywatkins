@@ -22,14 +22,9 @@ html {
 body {
   margin: 0;
   background:
-    repeating-linear-gradient(
-      138deg,
-      rgba(65, 81, 51, 0.055) 0,
-      rgba(65, 81, 51, 0.055) 1px,
-      transparent 1px,
-      transparent 42px
-    ),
-    linear-gradient(180deg, #f7efe3 0%, var(--paper) 46%, #ebe3d2 100%);
+    radial-gradient(circle at 12% 8%, rgba(65, 81, 51, 0.12), transparent 28%),
+    radial-gradient(circle at 92% 18%, rgba(29, 91, 98, 0.1), transparent 30%),
+    linear-gradient(180deg, #f8f3e8 0%, #f3eadc 52%, #eef1e7 100%);
   color: var(--ink);
   font-family: Inter, Arial, sans-serif;
   line-height: 1.5;
@@ -215,10 +210,10 @@ p {
 }
 
 h1 {
-  max-width: 10ch;
+  max-width: 12ch;
   margin-bottom: 26px;
-  font-size: clamp(52px, 8vw, 124px);
-  line-height: 0.94;
+  font-size: clamp(40px, 5.8vw, 86px);
+  line-height: 1;
   letter-spacing: 0;
 }
 
