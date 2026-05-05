@@ -705,6 +705,8 @@ h2 {
     /* Dragonfly project page image fixes */
 /* ===== ABOUT SECTION LAYOUT FIX ===== */
 
+/* ===== ABOUT FINAL FIX ===== */
+
 .about-media-copy {
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -712,21 +714,21 @@ h2 {
   align-items: start;
 }
 
-/* image */
 .about-media-copy img {
   width: 220px;
   height: auto;
   border-radius: 8px;
 }
 
-/* wrapper for the two paragraphs */
+/* THIS is the key part you were missing */
 .about-media-copy > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  max-width: 700px;
 }
 
-/* remove default spacing */
+/* force paragraphs to sit side by side cleanly */
 .about-media-copy p {
   margin: 0;
 }
