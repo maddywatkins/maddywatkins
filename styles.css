@@ -761,6 +761,36 @@ h2 {
 @media (max-width: 800px) {
   .visual-item {
     grid-template-columns: 1fr;
+    /* ===== PROJECT PAGE IMAGE FIXES ===== */
+
+/* TOP HERO IMAGE — show full image, no cropping */
+.project-page-hero img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;              /* keeps full image */
+  display: block;
+  margin: 2rem auto;
+  object-fit: contain;       /* prevents zoom/crop */
+  border-radius: 16px;
+}
+
+/* SLIDES — make them large and full-width */
+.deck-grid {
+  display: flex;
+  flex-direction: column;    /* stack vertically */
+  gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+/* EACH SLIDE IMAGE */
+.deck-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+
   }
 }
 
