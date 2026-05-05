@@ -873,3 +873,44 @@ h2 {
   display: block;
   border-radius: 12px;
 }
+    /* ===== ABOUT SECTION CLEANUP ===== */
+
+.about-media-copy {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 44px;
+  align-items: start;
+  max-width: 1100px;
+}
+
+.about-media-copy img {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.about-media-copy > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  max-width: 820px;
+}
+
+.about-media-copy p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .about-media-copy {
+    grid-template-columns: 1fr;
+  }
+
+  .about-media-copy > div {
+    grid-template-columns: 1fr;
+  }
+
+  .about-media-copy img {
+    width: 220px;
+    height: 280px;
+  }
+}
