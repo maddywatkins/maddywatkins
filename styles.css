@@ -732,3 +732,8 @@ h2 {
 .about-media-copy p {
   margin: 0;
 }
+  /* ===== ABOUT REAL FINAL FIX ===== */
+
+.about .split-copy {
+  display: block;
+}
