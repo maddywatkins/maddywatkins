@@ -7,38 +7,35 @@
     <meta name="description" content="Cooling Ultra Short by Maddy Watkins." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header" id="top">
       <a class="brand" href="index.html" aria-label="Maddy Watkins home">Maddy Watkins</a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
         <a href="index.html#about">About</a>
-        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#portfolio">Work</a>
         <a href="index.html#adventures">Adventures</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main>
-      <section class="project-hero" aria-labelledby="project-title">
-        <div class="project-hero-copy">
-          <a class="back-link" href="index.html#portfolio">Back to portfolio</a>
-          <p class="eyebrow">Cooling Apparel / Ultra Running / Storage</p>
-          <h1 id="project-title">Cooling Ultra Short</h1>
-          <p>
-            A heat-management short inspired by Western States Endurance Run,
-            built to support cooling, storage, and efficient movement in hot terrain.
-          </p>
-        </div>
-        <figure class="project-hero-image">
-          <img src="assets/short.jpeg" alt="Cooling ultra short prototype" />
-        </figure>
+      <section class="project-page-hero" aria-labelledby="project-title">
+        <a class="back-link" href="index.html#portfolio">Back to work</a>
+        <p class="eyebrow">Cooling Apparel / Ultra Running / Storage</p>
+        <h1 id="project-title">Cooling Ultra Short</h1>
+        <img src="assets/short.jpeg" alt="Cooling ultra short prototype" />
       </section>
 
-      <section class="project-summary section" aria-label="Project summary">
+      <section class="project-detail section" aria-label="Project details">
         <div class="spec-list">
           <div><span>Primary Use</span><strong>Hot ultra efforts</strong></div>
           <div><span>Cooling</span><strong>Built-in ice pocket</strong></div>
@@ -46,12 +43,13 @@
         </div>
         <div class="project-body">
           <p>
-            Inspired by the ice bandanas and ice pools used by athletes at Western
-            States, these shorts integrate an ice pocket into the liner.
+            A heat-management short inspired by Western States Endurance Run, built
+            to support cooling, storage, and efficient movement in hot terrain.
           </p>
           <p>
-            Ice melt targets the femoral artery and groin area to help manage core
-            body temperature while the short itself avoids holding excess water.
+            The shorts integrate an ice pocket into the liner. Ice melt targets the
+            femoral artery and groin area to help manage core body temperature while
+            the short itself avoids holding excess water.
           </p>
           <p>
             Waistband storage is preserved for a soft flask, nutrition, phone, keys,
@@ -67,22 +65,33 @@
         <img src="assets/short.jpeg" alt="Cooling ultra short garment view" />
       </section>
 
-      <section class="project-feature section" aria-labelledby="feature-title">
-        <div>
-          <p class="eyebrow">Design Intent</p>
-          <h2 id="feature-title">Keep the engine cool without sacrificing carry.</h2>
+      <section class="deck-preview section" aria-labelledby="deck-title">
+        <div class="deck-heading">
+          <p class="eyebrow">Process Deck</p>
+          <h2 id="deck-title">Brief to final prototype: 1 week</h2>
         </div>
-        <p>
-          The short is built around a simple mountain-running problem: athletes need
-          heat relief and storage at the same time. The solution cools a major blood
-          vessel while keeping the waistband useful for fast, self-supported movement.
-        </p>
+        <div class="deck-grid">
+          <img src="assets/thermoregulation-short-deck/slide-01.png" alt="Thermoregulation short deck slide 1" />
+          <img src="assets/thermoregulation-short-deck/slide-02.png" alt="Thermoregulation short deck slide 2" />
+          <img src="assets/thermoregulation-short-deck/slide-03.png" alt="Thermoregulation short deck slide 3" />
+          <img src="assets/thermoregulation-short-deck/slide-04.png" alt="Thermoregulation short deck slide 4" />
+          <img src="assets/thermoregulation-short-deck/slide-05.png" alt="Thermoregulation short deck slide 5" />
+          <img src="assets/thermoregulation-short-deck/slide-06.png" alt="Thermoregulation short deck slide 6" />
+          <img src="assets/thermoregulation-short-deck/slide-07.png" alt="Thermoregulation short deck slide 7" />
+          <img src="assets/thermoregulation-short-deck/slide-08.png" alt="Thermoregulation short deck slide 8" />
+          <img src="assets/thermoregulation-short-deck/slide-09.png" alt="Thermoregulation short deck slide 9" />
+          <img src="assets/thermoregulation-short-deck/slide-10.png" alt="Thermoregulation short deck slide 10" />
+          <img src="assets/thermoregulation-short-deck/slide-11.png" alt="Thermoregulation short deck slide 11" />
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div><p class="eyebrow">Next</p><h2>Explore more performance gear concepts.</h2></div>
-      <div class="footer-links"><a href="index.html#portfolio">Portfolio</a><a href="index.html#top">Home</a></div>
+      <p>Maddy Watkins</p>
+      <nav aria-label="Footer navigation">
+        <a href="index.html#portfolio">Work</a>
+        <a href="index.html">Home</a>
+      </nav>
     </footer>
 
     <script src="script.js"></script>
