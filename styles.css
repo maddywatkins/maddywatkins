@@ -737,3 +737,33 @@ h2 {
 .about .split-copy {
   display: block;
 }
+}/* ===== ABOUT DESKTOP FIX ===== */
+
+.about .split-copy {
+  display: block;
+}
+
+.about-media-copy {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 48px;
+  align-items: start;
+  max-width: 1100px;
+}
+
+.about-media-copy img {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-media-copy > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.about-media-copy p {
+  margin: 0;
+}
