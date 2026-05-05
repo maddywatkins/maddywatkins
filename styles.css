@@ -914,3 +914,30 @@ h2 {
     height: 280px;
   }
 }
+/* ===== ABOUT SECTION LAYOUT FIX ===== */
+
+.about-media-copy {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* image */
+.about-media-copy img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* wrapper for the two paragraphs */
+.about-media-copy > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+/* remove default spacing */
+.about-media-copy p {
+  margin: 0;
+}
