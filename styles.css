@@ -701,5 +701,66 @@ h2 {
 
   .footer {
     display: grid;
+    /* Dragonfly project page image fixes */
+.project-page-hero img {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 18px;
+}
+
+.visual-story {
+  display: grid;
+  gap: 3rem;
+}
+
+.visual-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.visual-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+}
+
+.visual-item figcaption {
+  display: block;
+  color: #222;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.visual-item figcaption span {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.deck-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.deck-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 800px) {
+  .visual-item {
+    grid-template-columns: 1fr;
   }
 }
+
