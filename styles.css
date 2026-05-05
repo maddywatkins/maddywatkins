@@ -857,3 +857,19 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+.deck-grid {
+  display: grid;
+  grid-template-columns: 1fr;   /* keep stacked */
+  gap: 2.5rem;
+  margin-top: 2rem;
+  max-width: 900px;             /* 👈 THIS is the key */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deck-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
