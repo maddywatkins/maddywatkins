@@ -46,25 +46,53 @@
         <img src="assets/hero-firefly.png" alt="Maddy Watkins running on a misty forest trail" />
       </section>
 
-     <section class="section about" id="about" aria-label="About Me">
+    <section class="section about" id="about" aria-label="About Me">
   <div class="section-kicker">About Me</div>
 
-  <div style="display: grid; grid-template-columns: 220px 1fr; gap: 48px; align-items: start; max-width: 1100px;">
+  <div style="
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: clamp(32px, 5vw, 72px);
+    align-items: start;
+    max-width: 1180px;
+  ">
     <img
       src="assets/mountain-portrait.jpeg"
       alt="Maddy Watkins in snowy mountains"
-      style="width: 220px; height: 280px; object-fit: cover; border-radius: 8px;"
+      style="
+        width: 260px;
+        height: 340px;
+        object-fit: cover;
+        object-position: 34% center;
+        border-radius: 10px;
+      "
     />
 
-    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
-      <p style="margin: 0;">
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(28px, 4vw, 56px);
+      align-items: start;
+      padding-top: 6px;
+    ">
+      <p style="
+        margin: 0;
+        color: #555;
+        font-size: clamp(17px, 1.35vw, 20px);
+        line-height: 1.65;
+      ">
         Raised in the Pacific Northwest and shaped by the rugged landscape of
         Western Colorado, I am a long-distance trail runner, cyclist, skier,
         and mountain athlete who understands what it means to rely on gear
         when conditions are anything but easy.
       </p>
 
-      <p style="margin: 0;">
+      <p style="
+        margin: 0;
+        color: #555;
+        font-size: clamp(17px, 1.35vw, 20px);
+        line-height: 1.65;
+      ">
         With a background in Mathematics and Outdoor Recreation Industry Studies, I
         blend analytical rigor with lived outdoor experience to translate performance
         needs into intentional, functional design.
